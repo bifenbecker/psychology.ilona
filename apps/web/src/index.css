@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+:root {
+	--swiper-theme-color: var(--color-orange-400);
+	--swiper-scrollbar-drag-bg-color: var(--color-orange-400);
+}
+
+@theme {
+	--font-roboto: "Roboto", sans-serif;
+}

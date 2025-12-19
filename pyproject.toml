@@ -1,0 +1,16 @@
+[project]
+name = "psychologyilona"
+version = "0.1.0"
+description = "Personal psycology portfolio"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["api"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.9",
+    "ty>=0.0.1a35",
+]

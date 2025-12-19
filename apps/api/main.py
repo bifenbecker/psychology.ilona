@@ -1,0 +1,10 @@
+def foo() -> int:
+    return "str"
+
+
+def main():
+    print("Hello from api!")
+
+
+if __name__ == "__main__":
+    main()
