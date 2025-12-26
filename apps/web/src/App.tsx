@@ -90,18 +90,18 @@ export const App = () => {
 					<div id="about" className="h-screen w-full bg-white text-black">
 						<div className="flex h-full w-full items-center justify-center">
 							<div className="flex w-3/4 max-w-7xl flex-col items-center justify-center gap-20 xl:flex-row">
-								<div className="flex flex-col items-start justify-center gap-16">
-									<h1 className="text-5xl">Обо мне</h1>
+								<div className="flex flex-col items-start justify-center gap-5 md:gap-16">
+									<h1 className="text-4xl md:text-5xl">Обо мне</h1>
 									<p className="max-w-xl">
 										Здравствуйте, меня зовут Илона. Я помогаю людям с поиском и
 										решением проблем. Использую различные практики и подходы.
 										Работаю с каждым индивидуально и стараюсь помочь каждому
 									</p>
 
-									<div className="flex flex-col gap-7 xl:flex-row">
+									<div className="flex flex-col gap-7 text-lg md:text-xl xl:flex-row">
 										<button
 											type="button"
-											className="rounded-3xl border border-orange-400 px-9 py-4 text-xl"
+											className="rounded-3xl border border-orange-400 px-9 py-4"
 										>
 											Подробнее
 										</button>
@@ -109,14 +109,14 @@ export const App = () => {
 											href="https://www.instagram.com/ilona_stasiukevich"
 											target="_blank"
 											rel="noreferrer"
-											className="hover:pointer rounded-3xl border border-orange-400 bg-orange-400 px-9 py-4 text-xl"
+											className="hover:pointer rounded-3xl border border-orange-400 bg-orange-400 px-9 py-4"
 										>
 											Связаться
 										</a>
 									</div>
 								</div>
 
-								<div className="flex w-80 flex-col gap-18">
+								<div className="flex w-80 flex-col gap-7 md:gap-18">
 									<div>
 										<label htmlFor="family">Семейная психология</label>
 										<div className="flex flex-row items-center">
@@ -222,9 +222,9 @@ export const App = () => {
 						id="faq"
 						className="flex h-screen w-full flex-col bg-white text-black"
 					>
-						<div className="flex flex-1 flex-col items-center justify-center gap-10">
-							<h1 className="text-7xl">Задать вопрос</h1>
-							<p className="text-lg">
+						<div className="m-auto flex w-3/4 flex-1 flex-col items-center justify-center gap-5 md:gap-10">
+							<h1 className="text-4xl md:text-7xl">Задать вопрос</h1>
+							<p className="max-w-xl text-md md:text-lg">
 								Вы всегда можете связаться со мной в социальных сетях
 							</p>
 
@@ -232,7 +232,7 @@ export const App = () => {
 								href="https://www.instagram.com/ilona_stasiukevich"
 								target="_blank"
 								rel="noreferrer"
-								className="hover:pointer rounded-3xl border border-orange-400 bg-orange-400 px-9 py-4 text-xl"
+								className="hover:pointer rounded-3xl border border-orange-400 bg-orange-400 px-9 py-4 md:text-xl"
 							>
 								Связаться
 							</a>
